@@ -394,3 +394,127 @@ to{
     right: 15%;
     bottom: 28%;
 }
+
+#page4{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px
+
+}
+
+
+.elem{
+    height: 70%;
+    width: 26%;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+
+.elem h2{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+    z-index: 10;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+
+.elem:hover h2{
+    color: white;
+    background-color: transparent;
+}
+
+.elem:hover img{
+    scale: 1;
+}
+
+
+#footer{
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(to left bottom ,  #119F3A , #ACE022);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap : 150px;
+    padding: 0 100px;
+}
+
+#footer>img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+
+    /* object-fit: cover; */
+    
+}
+
+#f1 img{
+    height: 100px;
+    
+    /* object-fit: contain; */
+
+}
+
+#f1 , #f2 , #f3 , #f4{
+    width: fit-content;
+    position: relative;
+    z-index: 2;
+
+}
+
+#f2 h3{
+    font-size: 29px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+#f3 h3{
+    font-size: 28px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+
+#f4 h4{
+    font-size: 17px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+} 
